@@ -17,7 +17,8 @@ on:
     - 'src/**'
     - 'COPYING'
     - 'makefile'
-
+  workflow_dispatch:    
+    
 permissions:
   contents: read
 
